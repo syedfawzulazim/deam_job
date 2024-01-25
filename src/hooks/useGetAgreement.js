@@ -5,7 +5,7 @@ export default function AgreementHook () {
     const [error,setError] = useState(true);
     const [loading,setLoading] = useState(false);
     const [agreementData, setAgreementData] = useState([]);
-    const apiUrl = 'http://3.86.84.212:3000/agreement';
+    const apiUrl = 'https://3.86.84.212/agreement';
 
     useEffect(() => {
         const fetchData = async () => {
